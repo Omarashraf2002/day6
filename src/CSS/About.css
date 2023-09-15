@@ -1,0 +1,16 @@
+.container {
+    margin-top: 30px;
+}
+.AboutUS {
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 3px;
+}
+.lorem {
+    font-size: 22px;
+}
+.butt {
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 30px;
+}

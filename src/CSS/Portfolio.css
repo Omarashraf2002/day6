@@ -1,0 +1,18 @@
+.text {
+    padding: 60px;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.portf .row {
+gap: 30px
+;
+}
+.Cardbody {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.col-4{
+    margin-bottom: 150px;
+}

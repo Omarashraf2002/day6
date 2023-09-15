@@ -1,0 +1,94 @@
+.Skill {
+    margin-top: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: grey;
+
+}
+.mainword {
+    text-align: center;
+    color: white;
+    
+}
+.Skill .txt {
+    color: whitesmoke;
+    width: 70%;
+    text-align: center;
+    margin-left: 250px;
+}
+.myfocus {
+
+    font-size: 22px;
+    color: whitesmoke;
+    position: relative;
+}
+.myfocus .col1 {
+    margin-bottom: 1px;
+}
+ .col1::after {
+    content: "";
+    background-color: whitesmoke;
+    width: 183px;
+    height: 2px;
+    /* top: 100%; */
+    top: 5%;
+    position: absolute;
+    left: 60px;
+}
+
+.prog-holder {
+    margin-bottom: 40px;
+}
+.prog-holder h4 {
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.prog-holder .prog {
+    background-color: #ddd;
+    height: 30px;
+}
+.prog-holder .prog span {
+    display: block;
+    background-color: rgb(224, 184, 184);
+    height: 100%;
+    position: relative;
+}
+.prog-holder .prog span::before {
+    content: attr(data-progress);
+    position: absolute;
+    background-color: black;
+    color: white;
+    top: -40px;
+    right: -8px;
+    padding: 4px 0;
+    width: 40px;
+    border-radius: 5px;
+    text-align: center;
+}
+/* .prog-holder .prog span::after {
+    content: "";
+    position: absolute;
+    border-style: solid;
+    border-width: 9px;
+    border-color: black transparent transparent;
+    top: -15px;
+    right: 0px;
+} */
+.prog-holder .span1 {
+    width: 90%;   
+}
+.prog-holder .span2{
+    width: 85%;
+}
+.prog-holder .span3 {
+    width: 75%;
+}
+.prog-holder .span4 {
+    width: 65%;
+}
+.prog-holder .span5 {
+    width: 55%;
+}
+.prog-holder .span6 {
+    width: 95%;
+}
